@@ -19,7 +19,7 @@ const showTime = document.querySelector(".show-time")
 let randomNumber;
 let number = 0;
 let number2 = 0;
-let number3= 6
+let number3= 5
 
 
 
