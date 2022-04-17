@@ -19,7 +19,7 @@ const showTime = document.querySelector(".show-time")
 let randomNumber;
 let number = 0;
 let number2 = 0;
-let number3= 5
+let number3= 6
 
 
 
@@ -106,7 +106,7 @@ function guessHander ()  {
     if (number3 == 0){
       btnGuess.removeEventListener("click", guessHander);
       showInfo.innerHTML =" "
-      showTime.innerHTML ="به خودت نیومدی باختی"
+      showTime.innerHTML = `به خودت نیومدی باختی عدد ${randomNumber}` 
       clearInterval(i);
     }else if (number3 == 1) {
       showTime.innerHTML =" به خودت بیا مرد این اخرین فرصته"

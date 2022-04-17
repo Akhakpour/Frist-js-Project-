@@ -1,3 +1,13 @@
+@font-face {
+    font-family: IRLotus-Italic;
+    src: url(/font/IRLotus-Italic.ttf);
+}
+
+@font-face {
+    font-family:IRTitr ;
+    src: url(/font/IRTitr.ttf);
+}
+
 * {
     margin: 0%;
     padding: 0%;
@@ -11,6 +21,10 @@ body {
     color: rgb(239, 243, 7);
     font-family:Arial, Helvetica, sans-serif;
 
+}
+
+h1{
+    font-family: IRTitr;
 }
 
 .parent {
@@ -52,10 +66,11 @@ body {
 }
     
 h3 { 
-    width: 65%;
-    color: #119b9b;
+    width: 75%;
+    color: #737454;
     direction: rtl;
     text-align: center;
+    font-family:IRTitr;
     
 }
 
@@ -90,6 +105,7 @@ input{
     border: 0;
     text-align: center;
     font-size: 2rem;
+    font-family: IRLotus-Italic;
 }
 
 button{
@@ -98,6 +114,7 @@ button{
     font-size: 20px;
     border-radius: 5px;
     cursor: pointer;
+    font-family: IRLotus-Italic;
 }
 
 .show-time{
